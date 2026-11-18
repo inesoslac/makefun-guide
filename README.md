@@ -106,6 +106,13 @@ node cli/makefun.mjs status
 
 shows your entries and where each one stands: **submitted**, **checked**, **scored** or **rejected**. A rejected entry lists every failed check together with its fix. Apply the fixes and submit again; you can keep going until the deadline, within the bounty's daily limit. Your latest entry before the deadline is the one that counts.
 
+## Mistakes that get entries rejected
+
+- **Starting before the bounty opens.** Sessions that began before the opening cannot be entered, even if the build finished after it. Open a fresh session and build in it.
+- **Pasting finished code in.** The checks match your transcripts against the code. Code that first shows up in a pasted message or a download counts against you, so let your agent write the files.
+- **Submitting the starter unchanged.** A starter is a starting point. An entry identical to it has no line your agent wrote, and the transcript gate refuses it.
+- **Forgetting the README or the badges.** Some bounties ask for a README with the competition's badge lines and a screenshot of the repository page. Read what the bounty asks for and check each item before you submit.
+
 ## 7. Claim your reward
 
 When results post and your entry has placed, you get a notification that the reward is ready. Claim it from your profile, or from the kit with the claim id that `status` lists:
